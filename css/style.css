@@ -147,9 +147,39 @@ form{
 	margin-bottom: 4px;
 }
 
-a{
-	display: block;
+.remember-me{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 8px 0;
+}
+
+.remember-me label{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	color: #999;
+	font-size: 0.9rem;
+	transition: .3s;
+}
+
+.remember-me label:hover{
+	color: #38d39f;
+}
+
+.remember-me label input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	margin-right: 6px;
+	accent-color: #38d39f;
+	cursor: pointer;
+}
+
+.remember-me a{
 	text-align: right;
+}
+
+a{
 	text-decoration: none;
 	color: #999;
 	font-size: 0.9rem;
