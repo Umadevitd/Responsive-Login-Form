@@ -147,6 +147,28 @@ form{
 	margin-bottom: 4px;
 }
 
+.remember-me{
+	display: flex;
+	align-items: center;
+	margin: 10px 0 4px;
+}
+
+.remember-me input[type="checkbox"]{
+	width: 16px;
+	height: 16px;
+	accent-color: #38d39f;
+	cursor: pointer;
+	margin: 0;
+}
+
+.remember-me label{
+	margin-left: 8px;
+	color: #999;
+	font-size: 0.9rem;
+	cursor: pointer;
+	user-select: none;
+}
+
 a{
 	display: block;
 	text-align: right;
